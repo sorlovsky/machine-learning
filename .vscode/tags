@@ -1,0 +1,234 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Agent	../projects/smartcab/smartcab/agent.py	/^from environment import Agent, Environment$/;"	kind:namespace	line:3
+Agent	../projects/smartcab/smartcab/environment.py	/^class Agent(object):$/;"	kind:class	line:411
+DecisionTreeRegressor	../projects/boston_housing/visuals.py	/^from sklearn.tree import DecisionTreeRegressor$/;"	kind:namespace	line:15
+DummyAgent	../projects/smartcab/smartcab/environment.py	/^class DummyAgent(Agent):$/;"	kind:class	line:434
+Environment	../projects/smartcab/smartcab/agent.py	/^from environment import Agent, Environment$/;"	kind:namespace	line:3
+Environment	../projects/smartcab/smartcab/environment.py	/^class Environment(object):$/;"	kind:class	line:27
+GaussianNB	../nb.py	/^from sklearn.naive_bayes import GaussianNB$/;"	kind:namespace	line:2
+LabelBinarizer	../projects/image-classification/helper.py	/^from sklearn.preprocessing import LabelBinarizer$/;"	kind:namespace	line:4
+LearningAgent	../projects/smartcab/smartcab/agent.py	/^class LearningAgent(Agent):$/;"	kind:class	line:7
+MagicMock	../projects/image-classification/problem_unittests.py	/^from unittest.mock import MagicMock$/;"	kind:namespace	line:5
+Maze	../projects/capstone/open_projects/robot_motion_planning/maze.py	/^class Maze(object):$/;"	kind:class	line:3
+Maze	../projects/capstone/open_projects/robot_motion_planning/showmaze.py	/^from maze import Maze$/;"	kind:namespace	line:1
+Maze	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^from maze import Maze$/;"	kind:namespace	line:1
+ModelComplexity	../projects/boston_housing/visuals.py	/^def ModelComplexity(X, y):$/;"	kind:function	line:70
+ModelLearning	../projects/boston_housing/visuals.py	/^def ModelLearning(X, y):$/;"	kind:function	line:18
+OrderedDict	../projects/smartcab/smartcab/environment.py	/^from collections import OrderedDict$/;"	kind:namespace	line:4
+PredictTrials	../projects/boston_housing/visuals.py	/^def PredictTrials(X, y, fitter, data):$/;"	kind:function	line:108
+Robot	../projects/capstone/open_projects/robot_motion_planning/robot.py	/^class Robot(object):$/;"	kind:class	line:3
+Robot	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^from robot import Robot$/;"	kind:namespace	line:2
+RoutePlanner	../projects/smartcab/smartcab/agent.py	/^from planner import RoutePlanner$/;"	kind:namespace	line:4
+RoutePlanner	../projects/smartcab/smartcab/planner.py	/^class RoutePlanner(object):$/;"	kind:class	line:3
+ShuffleSplit	../projects/boston_housing/visuals.py	/^from sklearn.cross_validation import ShuffleSplit, train_test_split$/;"	kind:namespace	line:16
+Simulator	../projects/smartcab/smartcab/agent.py	/^from simulator import Simulator$/;"	kind:namespace	line:5
+Simulator	../projects/smartcab/smartcab/environment.py	/^from simulator import Simulator$/;"	kind:namespace	line:5
+Simulator	../projects/smartcab/smartcab/simulator.py	/^class Simulator(object):$/;"	kind:class	line:14
+TrafficLight	../projects/smartcab/smartcab/environment.py	/^class TrafficLight(object):$/;"	kind:class	line:8
+X	../nb.py	/^X = np.array([[-1,-1], [-2,-1], [-3,-2], [1,1], [2,1], [3,2]])$/;"	kind:variable	line:4
+Y	../nb.py	/^Y = np.array([1,1,1,2,2,2])$/;"	kind:variable	line:5
+__init__	../projects/capstone/open_projects/robot_motion_planning/maze.py	/^    def __init__(self, filename):$/;"	kind:member	line:4
+__init__	../projects/capstone/open_projects/robot_motion_planning/robot.py	/^    def __init__(self, maze_dim):$/;"	kind:member	line:4
+__init__	../projects/smartcab/smartcab/agent.py	/^    def __init__(self, env, learning=False, epsilon=1.0, alpha=0.5):$/;"	kind:member	line:11
+__init__	../projects/smartcab/smartcab/environment.py	/^    def __init__(self, env):$/;"	kind:member	line:414
+__init__	../projects/smartcab/smartcab/environment.py	/^    def __init__(self, env):$/;"	kind:member	line:437
+__init__	../projects/smartcab/smartcab/environment.py	/^    def __init__(self, state=None, period=None):$/;"	kind:member	line:13
+__init__	../projects/smartcab/smartcab/environment.py	/^    def __init__(self, verbose=False, num_dummies=100, grid_size = (8, 6)):$/;"	kind:member	line:35
+__init__	../projects/smartcab/smartcab/planner.py	/^    def __init__(self, env, agent):$/;"	kind:member	line:6
+__init__	../projects/smartcab/smartcab/simulator.py	/^    def __init__(self, env, size=None, update_delay=2.0, display=True, log_metrics=False, optimized=False):$/;"	kind:member	line:37
+__init__.py	../projects/smartcab/smartcab/__init__.py	1;"	kind:file	line:1
+_load_label_names	../projects/image-classification/helper.py	/^def _load_label_names():$/;"	kind:function	line:7
+_preprocess_and_save	../projects/image-classification/helper.py	/^def _preprocess_and_save(normalize, one_hot_encode, features, labels, filename):$/;"	kind:function	line:60
+_print_success_message	../projects/image-classification/problem_unittests.py	/^def _print_success_message():$/;"	kind:function	line:8
+accuracy_score	../projects/finding_donors/visuals.py	/^from sklearn.metrics import f1_score, accuracy_score$/;"	kind:namespace	line:17
+act	../projects/smartcab/smartcab/environment.py	/^    def act(self, agent, action):$/;"	kind:member	line:262
+agent.py	../projects/smartcab/smartcab/agent.py	1;"	kind:file	line:1
+ast	../projects/smartcab/visuals.py	/^import ast$/;"	kind:namespace	line:17
+batch_features_labels	../projects/image-classification/helper.py	/^def batch_features_labels(features, labels, batch_size):$/;"	kind:function	line:118
+biplot	../projects/customer_segments/visuals.py	/^def biplot(good_data, reduced_data, pca):$/;"	kind:function	line:86
+build_state	../projects/smartcab/smartcab/agent.py	/^    def build_state(self):$/;"	kind:member	line:45
+calculate_reliability	../projects/smartcab/visuals.py	/^def calculate_reliability(data):$/;"	kind:function	line:43
+calculate_safety	../projects/smartcab/visuals.py	/^def calculate_safety(data):$/;"	kind:function	line:20
+channel_results	../projects/customer_segments/visuals.py	/^def channel_results(reduced_data, outliers, pca_samples):$/;"	kind:function	line:125
+choose_action	../projects/smartcab/smartcab/agent.py	/^    def choose_action(self, state):$/;"	kind:member	line:97
+clf	../nb.py	/^clf = GaussianNB()$/;"	kind:variable	line:7
+cluster_results	../projects/customer_segments/visuals.py	/^def cluster_results(reduced_data, preds, centers, pca_samples):$/;"	kind:function	line:52
+cm	../projects/customer_segments/visuals.py	/^import matplotlib.cm as cm$/;"	kind:namespace	line:13
+color_choices	../projects/smartcab/smartcab/environment.py	/^    color_choices = ['cyan', 'red', 'blue', 'green', 'orange', 'magenta', 'yellow']$/;"	kind:variable	line:435
+colors	../projects/smartcab/smartcab/simulator.py	/^    colors = {$/;"	kind:variable	line:20
+compute_dist	../projects/smartcab/smartcab/environment.py	/^    def compute_dist(self, a, b):$/;"	kind:member	line:396
+createQ	../projects/smartcab/smartcab/agent.py	/^    def createQ(self, state):$/;"	kind:member	line:84
+create_agent	../projects/smartcab/smartcab/environment.py	/^    def create_agent(self, agent_class, *args, **kwargs):$/;"	kind:member	line:91
+csv	../projects/smartcab/smartcab/simulator.py	/^import csv$/;"	kind:namespace	line:12
+curves	../projects/boston_housing/visuals.py	/^import sklearn.learning_curve as curves$/;"	kind:namespace	line:14
+dir_move	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^dir_move = {'u': [0, 1], 'r': [1, 0], 'd': [0, -1], 'l': [-1, 0],$/;"	kind:variable	line:10
+dir_reverse	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^dir_reverse = {'u': 'd', 'r': 'l', 'd': 'u', 'l': 'r',$/;"	kind:variable	line:12
+dir_sensors	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^dir_sensors = {'u': ['l', 'u', 'r'], 'r': ['u', 'r', 'd'],$/;"	kind:variable	line:6
+disabled	../projects/smartcab/smartcab/simulator.py	/^                print "Simulator.__init__(): Unable to import pygame; display disabled.\\n{}: {}".format(e.__class__.__name__, e)$/;"	kind:namespace	line:81
+display	../projects/smartcab/smartcab/simulator.py	/^                print "Simulator.__init__(): Unable to import pygame; display disabled.\\n{}: {}".format(e.__class__.__name__, e)$/;"	kind:namespace	line:81
+display_image_predictions	../projects/image-classification/helper.py	/^def display_image_predictions(features, labels, predictions):$/;"	kind:function	line:138
+display_stats	../projects/image-classification/helper.py	/^def display_stats(cifar10_dataset_folder_path, batch_id, sample_id):$/;"	kind:function	line:27
+dist_to_wall	../projects/capstone/open_projects/robot_motion_planning/maze.py	/^    def dist_to_wall(self, cell, direction):$/;"	kind:member	line:74
+distribution	../projects/finding_donors/visuals.py	/^def distribution(data, transformed = False):$/;"	kind:function	line:20
+environment.py	../projects/smartcab/smartcab/environment.py	1;"	kind:file	line:1
+evaluate	../projects/finding_donors/visuals.py	/^def evaluate(results, accuracy, f1):$/;"	kind:function	line:51
+f1_score	../projects/finding_donors/visuals.py	/^from sklearn.metrics import f1_score, accuracy_score$/;"	kind:namespace	line:17
+feature_plot	../projects/finding_donors/visuals.py	/^def feature_plot(importances, X_train, y_train):$/;"	kind:function	line:122
+filter_data	../projects/titanic_survival_exploration/visuals.py	/^def filter_data(data, condition):$/;"	kind:function	line:16
+get_deadline	../projects/smartcab/smartcab/environment.py	/^    def get_deadline(self, agent):$/;"	kind:member	line:257
+get_ipython	../projects/boston_housing/visuals.py	/^from IPython import get_ipython$/;"	kind:namespace	line:8
+get_ipython	../projects/customer_segments/visuals.py	/^from IPython import get_ipython$/;"	kind:namespace	line:8
+get_ipython	../projects/finding_donors/visuals.py	/^from IPython import get_ipython$/;"	kind:namespace	line:8
+get_ipython	../projects/smartcab/visuals.py	/^from IPython import get_ipython$/;"	kind:namespace	line:9
+get_ipython	../projects/titanic_survival_exploration/visuals.py	/^from IPython import get_ipython$/;"	kind:namespace	line:8
+get_maxQ	../projects/smartcab/smartcab/agent.py	/^    def get_maxQ(self, state):$/;"	kind:member	line:70
+get_next_waypoint	../projects/smartcab/smartcab/environment.py	/^    def get_next_waypoint(self):$/;"	kind:member	line:430
+get_state	../projects/smartcab/smartcab/environment.py	/^    def get_state(self):$/;"	kind:member	line:427
+goal_bounds	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^            goal_bounds = [testmaze.dim\/2 - 1, testmaze.dim\/2]$/;"	kind:variable	line:104
+hard_time_limit	../projects/smartcab/smartcab/environment.py	/^    hard_time_limit = -100  # Set a hard time limit even if deadline is not enforced.$/;"	kind:variable	line:33
+helper.py	../projects/image-classification/helper.py	1;"	kind:file	line:1
+hit_goal	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^                hit_goal = True$/;"	kind:variable	line:106
+hit_goal	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^        hit_goal = False$/;"	kind:variable	line:42
+importlib	../projects/smartcab/smartcab/simulator.py	/^import importlib$/;"	kind:namespace	line:11
+is_permissible	../projects/capstone/open_projects/robot_motion_planning/maze.py	/^    def is_permissible(self, cell, direction):$/;"	kind:member	line:59
+learn	../projects/smartcab/smartcab/agent.py	/^    def learn(self, state, action, reward):$/;"	kind:member	line:116
+load_cfar10_batch	../projects/image-classification/helper.py	/^def load_cfar10_batch(cifar10_dataset_folder_path, batch_id):$/;"	kind:function	line:14
+load_preprocess_training_batch	../projects/image-classification/helper.py	/^def load_preprocess_training_batch(batch_id, batch_size):$/;"	kind:function	line:127
+math	../projects/smartcab/smartcab/agent.py	/^import math$/;"	kind:namespace	line:2
+math	../projects/smartcab/smartcab/environment.py	/^import math$/;"	kind:namespace	line:3
+matplotlib	../projects/boston_housing/visuals.py	/^import matplotlib.pyplot as pl$/;"	kind:namespace	line:12
+matplotlib	../projects/customer_segments/visuals.py	/^import matplotlib.cm as cm$/;"	kind:namespace	line:13
+matplotlib	../projects/customer_segments/visuals.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:12
+matplotlib	../projects/finding_donors/visuals.py	/^import matplotlib.patches as mpatches$/;"	kind:namespace	line:13
+matplotlib	../projects/finding_donors/visuals.py	/^import matplotlib.pyplot as pl$/;"	kind:namespace	line:12
+matplotlib	../projects/image-classification/helper.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+matplotlib	../projects/smartcab/visuals.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:13
+matplotlib	../projects/titanic_survival_exploration/visuals.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:14
+max_time	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^max_time = 1000$/;"	kind:variable	line:16
+maze.py	../projects/capstone/open_projects/robot_motion_planning/maze.py	1;"	kind:file	line:1
+movement	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^                        movement = 0$/;"	kind:variable	line:101
+movement	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^                        movement = 0$/;"	kind:variable	line:92
+movement	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^            movement = max(min(int(movement), 3), -3) # fix to range [-3, 3]$/;"	kind:variable	line:83
+mpatches	../projects/finding_donors/visuals.py	/^import matplotlib.patches as mpatches$/;"	kind:namespace	line:13
+n	../projects/smartcab/smartcab/simulator.py	/^                print "Simulator.__init__(): Unable to import pygame; display disabled.\\n{}: {}".format(e.__class__.__name__, e)$/;"	kind:namespace	line:81
+nb.py	../nb.py	1;"	kind:file	line:1
+next_move	../projects/capstone/open_projects/robot_motion_planning/robot.py	/^    def next_move(self, sensors):$/;"	kind:member	line:16
+next_waypoint	../projects/smartcab/smartcab/planner.py	/^    def next_waypoint(self):$/;"	kind:member	line:16
+np	../nb.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../projects/boston_housing/visuals.py	/^import numpy as np$/;"	kind:namespace	line:13
+np	../projects/capstone/open_projects/robot_motion_planning/maze.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../projects/capstone/open_projects/robot_motion_planning/robot.py	/^import numpy as np$/;"	kind:namespace	line:1
+np	../projects/customer_segments/visuals.py	/^import numpy as np$/;"	kind:namespace	line:15
+np	../projects/finding_donors/visuals.py	/^import numpy as np$/;"	kind:namespace	line:14
+np	../projects/image-classification/helper.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../projects/image-classification/problem_unittests.py	/^import numpy as np$/;"	kind:namespace	line:2
+np	../projects/smartcab/visuals.py	/^import numpy as np$/;"	kind:namespace	line:14
+np	../projects/titanic_survival_exploration/visuals.py	/^import numpy as np$/;"	kind:namespace	line:12
+np	../train.py	/^import numpy as np$/;"	kind:namespace	line:1
+origin	../projects/capstone/open_projects/robot_motion_planning/showmaze.py	/^    origin = testmaze.dim * sq_size \/ -2$/;"	kind:variable	line:23
+os	../projects/image-classification/problem_unittests.py	/^import os$/;"	kind:namespace	line:1
+os	../projects/smartcab/smartcab/simulator.py	/^import os$/;"	kind:namespace	line:8
+os	../projects/smartcab/visuals.py	/^import os$/;"	kind:namespace	line:16
+pause	../projects/smartcab/smartcab/simulator.py	/^    def pause(self):$/;"	kind:member	line:448
+pca_results	../projects/customer_segments/visuals.py	/^def pca_results(good_data, pca):$/;"	kind:function	line:17
+pd	../projects/customer_segments/visuals.py	/^import pandas as pd$/;"	kind:namespace	line:14
+pd	../projects/finding_donors/visuals.py	/^import pandas as pd$/;"	kind:namespace	line:15
+pd	../projects/smartcab/visuals.py	/^import pandas as pd$/;"	kind:namespace	line:15
+pd	../projects/titanic_survival_exploration/visuals.py	/^import pandas as pd$/;"	kind:namespace	line:13
+pickle	../projects/image-classification/helper.py	/^import pickle$/;"	kind:namespace	line:1
+pl	../projects/boston_housing/visuals.py	/^import matplotlib.pyplot as pl$/;"	kind:namespace	line:12
+pl	../projects/finding_donors/visuals.py	/^import matplotlib.pyplot as pl$/;"	kind:namespace	line:12
+planner.py	../projects/smartcab/smartcab/planner.py	1;"	kind:file	line:1
+plot_trials	../projects/smartcab/visuals.py	/^def plot_trials(csv):$/;"	kind:function	line:63
+plt	../projects/customer_segments/visuals.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:12
+plt	../projects/image-classification/helper.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:3
+plt	../projects/smartcab/visuals.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:13
+plt	../projects/titanic_survival_exploration/visuals.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:14
+preprocess_and_save_data	../projects/image-classification/helper.py	/^def preprocess_and_save_data(cifar10_dataset_folder_path, normalize, one_hot_encode):$/;"	kind:function	line:70
+problem_unittests.py	../projects/image-classification/problem_unittests.py	1;"	kind:file	line:1
+pygame	../projects/smartcab/smartcab/simulator.py	/^                print "Simulator.__init__(): Unable to import pygame; display disabled.\\n{}: {}".format(e.__class__.__name__, e)$/;"	kind:namespace	line:81
+random	../projects/image-classification/problem_unittests.py	/^import random$/;"	kind:namespace	line:4
+random	../projects/smartcab/smartcab/agent.py	/^import random$/;"	kind:namespace	line:1
+random	../projects/smartcab/smartcab/environment.py	/^import random$/;"	kind:namespace	line:2
+random	../projects/smartcab/smartcab/planner.py	/^import random$/;"	kind:namespace	line:1
+random	../projects/smartcab/smartcab/simulator.py	/^import random$/;"	kind:namespace	line:10
+render	../projects/smartcab/smartcab/simulator.py	/^    def render(self, trial, testing=False):$/;"	kind:member	line:303
+render_text	../projects/smartcab/smartcab/simulator.py	/^    def render_text(self, trial, testing=False):$/;"	kind:member	line:252
+reset	../projects/smartcab/smartcab/agent.py	/^    def reset(self, destination=None, testing=False):$/;"	kind:member	line:28
+reset	../projects/smartcab/smartcab/environment.py	/^    def reset(self):$/;"	kind:member	line:18
+reset	../projects/smartcab/smartcab/environment.py	/^    def reset(self, destination=None, testing=False):$/;"	kind:member	line:421
+reset	../projects/smartcab/smartcab/environment.py	/^    def reset(self, testing=False):$/;"	kind:member	line:106
+rev_heading	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^                    rev_heading = dir_reverse[robot_pos['heading']]$/;"	kind:variable	line:94
+robot.py	../projects/capstone/open_projects/robot_motion_planning/robot.py	1;"	kind:file	line:1
+robot_pos	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^        robot_pos = {'location': [0, 0], 'heading': 'up'}$/;"	kind:variable	line:39
+route_to	../projects/smartcab/smartcab/planner.py	/^    def route_to(self, destination=None):$/;"	kind:member	line:11
+run	../projects/smartcab/smartcab/agent.py	/^def run():$/;"	kind:function	line:144
+run	../projects/smartcab/smartcab/simulator.py	/^    def run(self, tolerance=0.05, n_test=0):$/;"	kind:member	line:111
+run_active	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^                    run_active = False$/;"	kind:variable	line:109
+run_active	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^                    run_active = False$/;"	kind:variable	line:59
+run_active	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^                run_active = False$/;"	kind:variable	line:47
+run_active	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^        run_active = True$/;"	kind:variable	line:41
+runtimes	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^    runtimes = []$/;"	kind:variable	line:32
+sense	../projects/smartcab/smartcab/environment.py	/^    def sense(self, agent):$/;"	kind:member	line:222
+sensing	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^            sensing = [testmaze.dist_to_wall(robot_pos['location'], heading)$/;"	kind:variable	line:52
+set_primary_agent	../projects/smartcab/smartcab/environment.py	/^    def set_primary_agent(self, agent, enforce_deadline=False):$/;"	kind:member	line:98
+showmaze.py	../projects/capstone/open_projects/robot_motion_planning/showmaze.py	1;"	kind:file	line:1
+simulator.py	../projects/smartcab/smartcab/simulator.py	1;"	kind:file	line:1
+sklearn	../projects/boston_housing/visuals.py	/^import sklearn.learning_curve as curves$/;"	kind:namespace	line:14
+sq_size	../projects/capstone/open_projects/robot_motion_planning/showmaze.py	/^    sq_size = 20$/;"	kind:variable	line:22
+step	../projects/smartcab/smartcab/environment.py	/^    def step(self):$/;"	kind:member	line:179
+survival_stats	../projects/titanic_survival_exploration/visuals.py	/^def survival_stats(data, outcomes, key, filters = []):$/;"	kind:function	line:55
+sys	../projects/capstone/open_projects/robot_motion_planning/showmaze.py	/^import sys$/;"	kind:namespace	line:3
+sys	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^import sys$/;"	kind:namespace	line:3
+test_con_pool	../projects/image-classification/problem_unittests.py	/^def test_con_pool(conv2d_maxpool):$/;"	kind:function	line:125
+test_conv_net	../projects/image-classification/problem_unittests.py	/^def test_conv_net(conv_net):$/;"	kind:function	line:175
+test_flatten	../projects/image-classification/problem_unittests.py	/^def test_flatten(flatten):$/;"	kind:function	line:141
+test_folder_path	../projects/image-classification/problem_unittests.py	/^def test_folder_path(cifar10_dataset_folder_path):$/;"	kind:function	line:12
+test_fully_conn	../projects/image-classification/problem_unittests.py	/^def test_fully_conn(fully_conn):$/;"	kind:function	line:151
+test_nn_image_inputs	../projects/image-classification/problem_unittests.py	/^def test_nn_image_inputs(neural_net_image_input):$/;"	kind:function	line:78
+test_nn_keep_prob_inputs	../projects/image-classification/problem_unittests.py	/^def test_nn_keep_prob_inputs(neural_net_keep_prob_input):$/;"	kind:function	line:110
+test_nn_label_inputs	../projects/image-classification/problem_unittests.py	/^def test_nn_label_inputs(neural_net_label_input):$/;"	kind:function	line:94
+test_normalize	../projects/image-classification/problem_unittests.py	/^def test_normalize(normalize):$/;"	kind:function	line:32
+test_one_hot_encode	../projects/image-classification/problem_unittests.py	/^def test_one_hot_encode(one_hot_encode):$/;"	kind:function	line:49
+test_output	../projects/image-classification/problem_unittests.py	/^def test_output(output):$/;"	kind:function	line:163
+test_train_nn	../projects/image-classification/problem_unittests.py	/^def test_train_nn(train_neural_network):$/;"	kind:function	line:187
+tester.py	../projects/capstone/open_projects/robot_motion_planning/tester.py	1;"	kind:file	line:1
+testmaze	../projects/capstone/open_projects/robot_motion_planning/showmaze.py	/^    testmaze = Maze( str(sys.argv[1]) )$/;"	kind:variable	line:12
+testmaze	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^    testmaze = Maze( str(sys.argv[1]) )$/;"	kind:variable	line:26
+testrobot	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^    testrobot = Robot(testmaze.dim)$/;"	kind:variable	line:29
+tf	../projects/image-classification/problem_unittests.py	/^import tensorflow as tf$/;"	kind:namespace	line:3
+time	../projects/finding_donors/visuals.py	/^from time import time$/;"	kind:namespace	line:16
+time	../projects/smartcab/smartcab/environment.py	/^import time$/;"	kind:namespace	line:1
+time	../projects/smartcab/smartcab/simulator.py	/^import time$/;"	kind:namespace	line:9
+total_time	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^    total_time = 0$/;"	kind:variable	line:33
+train.py	../train.py	1;"	kind:file	line:1
+train_score_mult	../projects/capstone/open_projects/robot_motion_planning/tester.py	/^train_score_mult = 1\/30.$/;"	kind:variable	line:17
+train_test_split	../projects/boston_housing/visuals.py	/^from sklearn.cross_validation import ShuffleSplit, train_test_split$/;"	kind:namespace	line:16
+train_test_split	../train.py	/^from sklearn.model_selection import train_test_split$/;"	kind:namespace	line:2
+turtle	../projects/capstone/open_projects/robot_motion_planning/showmaze.py	/^import turtle$/;"	kind:namespace	line:2
+update	../projects/smartcab/smartcab/agent.py	/^    def update(self):$/;"	kind:member	line:130
+update	../projects/smartcab/smartcab/environment.py	/^    def update(self):$/;"	kind:member	line:424
+update	../projects/smartcab/smartcab/environment.py	/^    def update(self):$/;"	kind:member	line:442
+update	../projects/smartcab/smartcab/environment.py	/^    def update(self, t):$/;"	kind:member	line:21
+valid_actions	../projects/smartcab/smartcab/environment.py	/^    valid_actions = [None, 'forward', 'left', 'right']$/;"	kind:variable	line:30
+valid_headings	../projects/smartcab/smartcab/environment.py	/^    valid_headings = [(1, 0), (0, -1), (-1, 0), (0, 1)]  # E, N, W, S$/;"	kind:variable	line:32
+valid_inputs	../projects/smartcab/smartcab/environment.py	/^    valid_inputs = {'light': TrafficLight.valid_states, 'oncoming': valid_actions, 'left': valid_actions, 'right': valid_actions}$/;"	kind:variable	line:31
+valid_states	../projects/smartcab/smartcab/environment.py	/^    valid_states = [True, False]  # True = NS open; False = EW open$/;"	kind:variable	line:11
+visuals.py	../projects/boston_housing/visuals.py	1;"	kind:file	line:1
+visuals.py	../projects/customer_segments/visuals.py	1;"	kind:file	line:1
+visuals.py	../projects/finding_donors/visuals.py	1;"	kind:file	line:1
+visuals.py	../projects/smartcab/visuals.py	1;"	kind:file	line:1
+visuals.py	../projects/titanic_survival_exploration/visuals.py	1;"	kind:file	line:1
+wally	../projects/capstone/open_projects/robot_motion_planning/showmaze.py	/^    wally = turtle.Turtle()$/;"	kind:variable	line:16
+warnings	../projects/boston_housing/visuals.py	/^import warnings$/;"	kind:namespace	line:4
+warnings	../projects/customer_segments/visuals.py	/^import warnings$/;"	kind:namespace	line:4
+warnings	../projects/finding_donors/visuals.py	/^import warnings$/;"	kind:namespace	line:4
+warnings	../projects/smartcab/smartcab/simulator.py	/^import warnings$/;"	kind:namespace	line:4
+warnings	../projects/smartcab/visuals.py	/^import warnings$/;"	kind:namespace	line:4
+warnings	../projects/titanic_survival_exploration/visuals.py	/^import warnings$/;"	kind:namespace	line:4
+window	../projects/capstone/open_projects/robot_motion_planning/showmaze.py	/^    window = turtle.Screen()$/;"	kind:variable	line:15
